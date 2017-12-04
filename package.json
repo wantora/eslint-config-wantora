@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-wantora",
+  "version": "1.0.0",
+  "author": "wantora <wantora@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/wantora/eslint-config-wantora/issues"
+  },
+  "dependencies": {
+    "js-yaml": "^3.10.0"
+  },
+  "homepage": "https://github.com/wantora/eslint-config-wantora#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=4.12.1"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wantora/eslint-config-wantora.git"
+  }
+}
