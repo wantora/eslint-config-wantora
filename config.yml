@@ -85,6 +85,7 @@ rules:
   eol-last: "warn"
   func-call-spacing: "error"
   func-name-matching: "error"
+  func-style: ["error", "declaration", {"allowArrowFunctions": true}]
   implicit-arrow-linebreak: "error"
   indent: ["warn", 2]
   jsx-quotes: "error"
