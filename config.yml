@@ -60,7 +60,6 @@ rules:
   no-with: "error"
   prefer-promise-reject-errors: "error"
   radix: "error"
-  require-await: "error"
 
   # Strict Mode
   strict: ["error", "global"]
