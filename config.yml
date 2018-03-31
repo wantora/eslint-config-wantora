@@ -12,13 +12,12 @@ rules:
   no-console: "warn" # eslint:recommended
   no-prototype-builtins: "error"
   no-template-curly-in-string: "error"
-  no-unexpected-multiline: "error" # eslint:recommended, prettier
 
   # Best Practices
   accessor-pairs: "error"
   array-callback-return: "error"
   consistent-return: "error"
-  curly: ["error", "all"]
+  curly: ["error", "all"] # prettier
   default-case: "error"
   eqeqeq: "error"
   guard-for-in: "error"
@@ -79,17 +78,15 @@ rules:
   linebreak-style: ["error", "unix"]
   lines-between-class-members: ["error", "never"]
   no-array-constructor: "error"
-  no-mixed-operators: "error"
   no-negated-condition: "error"
   no-nested-ternary: "error"
   no-new-object: "error"
   no-underscore-dangle: ["error", {"allowAfterThis": true}]
   no-unneeded-ternary: "error"
-  quotes: ["error", "double", {"avoidEscape": true}]
   spaced-comment: "error"
 
   # ECMAScript 6
-  no-confusing-arrow: ["error", {"allowParens": true}]
+  no-confusing-arrow: ["error", {"allowParens": true}] # prettier
   no-duplicate-imports: "error"
   no-useless-computed-key: "error"
   no-useless-constructor: "error"
