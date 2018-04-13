@@ -105,5 +105,4 @@ rules:
     - error
     - arrowParens: always
       bracketSpacing: false
-      printWidth: 100
       trailingComma: es5
