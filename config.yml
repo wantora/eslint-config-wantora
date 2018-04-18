@@ -9,7 +9,7 @@ rules:
   # Possible Errors
   for-direction: "error"
   getter-return: "error"
-  no-console: "warn" # eslint:recommended
+  no-console: ["warn", {allow: ["info", "warn", "error"]}] # eslint:recommended
   no-prototype-builtins: "error"
   no-template-curly-in-string: "error"
 
